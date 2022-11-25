@@ -1,0 +1,55 @@
+{
+  "empresa": "Acalio Innova",
+  "autor": "Jose Antonio Sánchez",
+  "lenguaje": "Django",
+  "nombreApp": "Pajaros",
+  "version": "1.0",
+  "clases": [
+    {
+      "nombre": "Criador",
+      "miembros": [
+        {
+          "nombre": "nombre",
+          "tipo": "varchar",
+          "tipo_valor": "100",
+          "por_defecto": "pepe"
+        },
+        {
+          "nombre": "correo_e",
+          "tipo": "varchar",
+          "tipo_valor": "200",
+          "por_defecto": "pepe@pepe.com"
+        },
+        {
+          "nombre": "user_id",
+          "tipo": "foranea",
+          "tipo_valor": "",
+          "por_defecto": ""
+        }
+      ]
+    },
+    {
+      "nombre": "Pajaro",
+      "miembros": [
+        {
+          "nombre": "nombre",
+          "tipo": "varchar",
+          "tipo_valor": "100",
+          "por_defecto": "pepe"
+        },
+        {
+          "nombre": "correo_e",
+          "tipo": "varchar",
+          "tipo_valor": "200",
+          "por_defecto": "pepe@pepe.com"
+        },
+        {
+          "nombre": "anilla",
+          "tipo": "varchar",
+          "tipo_valor": "200",
+          "por_defecto": "100"
+        }
+      ]
+    }
+  ]
+}
